@@ -1,0 +1,14 @@
+.about-container {
+  min-height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  height: 180px;
+}
+.heading {
+  color: #000000;
+}

@@ -1,0 +1,23 @@
+.home-container {
+  min-height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-image {
+  height: 180px;
+}
+.dark-home-bg {
+  background-color: #000000;
+}
+.light-home-bg {
+  background-color: white;
+}
+.light-text-color {
+  color: white;
+}
+.dark-text-color {
+  color: #000000;
+}
