@@ -20,13 +20,13 @@ const Header = () => (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png"
                 alt="theme"
-                className="website logo"
+                className="logo"
               />
             ) : (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png"
                 alt="theme"
-                className="website logo"
+                className="logo"
               />
             )}
           </Link>
@@ -42,7 +42,7 @@ const Header = () => (
             <button type="button" className="theme-button" data-testid="theme">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/light-theme-img.png"
-                alt="theme"
+                alt="website logo"
                 className="theme"
                 onClick={changeThemeButton}
               />
@@ -51,7 +51,7 @@ const Header = () => (
             <button type="button" className="theme-button" data-testid="theme">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/dark-theme-img.png"
-                alt="theme"
+                alt="website logo"
                 className="theme"
                 onClick={changeThemeButton}
               />
