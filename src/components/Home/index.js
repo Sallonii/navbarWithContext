@@ -22,7 +22,7 @@ const Home = () => (
             ) : (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/home-light-img.png"
-                alt="home"
+                alt="theme"
                 className="home-image"
               />
             )}
